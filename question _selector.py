@@ -27,4 +27,29 @@ def question_select():
       a) Thor's Hammer
       b) Captain America's Hammer
       c) Tesseract
-      d) Hel""")
+      d) Helicopter
+      
+      print a, b, c, or d
+      """)
+      if avengers_500 == "c":
+        print("You got it correct!")
+        player_new_total = player_total + question_total
+        print(f"Your total is ${player_new_total}")
+      else:
+        print("You got it wrong :( ")
+        print(f"Your total is {player_total}")
+  if movie_select == "The Avengers":
+    if amount_select == "$1000":
+      avengers_1000 = input("""What is used to destroy the wormhole generator that Loki built?
+      a) The Hulk
+      b) Loki's Scepter
+      c) Nuclear Missile
+      d) An Arrow
+      """)
+      if avengers_1000 == "b":
+        print("You got it correct!")
+        player_new_total = player_total + question_total
+        print(f"Your total is ${player_new_total}")
+      else:
+        print("You got it wrong :( ")
+        print(f"Your total is {player_total}")
