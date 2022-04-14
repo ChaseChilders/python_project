@@ -8,23 +8,22 @@ def avengers_100():
 
 Who is the Director of S.H.I.E.L.D? 
 
-    a) Phil Coulson
+    A) Phil Coulson
 
-    b) Nick Fury
+    B) Nick Fury
 
-    c) Natasha Romanov
+    C) Natasha Romanov
 
-    d) Steve Rogers
+    D) Steve Rogers
     
-    print a, b, c, or d
-    
-
-    """)
-  if answer == "b":
-      print("You got it correct! ")
+    Print A, B, C, or D: """)
+  if answer == "B":
+      print("""
+      You got it correct! """)
       return 100
   else:
-      print("You got it wrong :( ")
+      print("""
+      You got it wrong :( """)
       return 0
 
 
@@ -33,23 +32,22 @@ def avengers_500():
 
 What is the item that Loki steals in order to take over earth?
 
-  a) Thor's Hammer
+  A) Thor's Hammer
 
-  b) Captain America's Hammer
+  B) Captain America's Hammer
 
-  c) Tesseract
+  C) Tesseract
 
-  d) Helicopter
+  D) Helicopter
 
-  print a, b, c, or d
-
-
-  """)
-  if answer == "c":
-    print("You got it correct! ")
+  Print A, B, C, or D: """)
+  if answer == "C":
+    print("""
+    You got it correct! """)
     return 500
   else:
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def avengers_1000():
@@ -57,23 +55,22 @@ def avengers_1000():
 
 What is used to destroy the wormhole generator that Loki built?
 
-  a) The Hulk
+  A) The Hulk
 
-  b) Loki's Scepter
+  B) Loki's Scepter
 
-  c) Nuclear Missile
+  C) Nuclear Missile
 
-  d) An Arrow
+  D) An Arrow
 
-  print a, b, c, or d
-
-
-  """)
-  if answer == "b":
-    print("You got it correct! ")
+  print A, B, C, or D: """)
+  if answer == "B":
+    print("""
+    You got it correct! """)
     return 1000
   else:
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def infinity_war100():
@@ -81,23 +78,22 @@ def infinity_war100():
 
 Who kills Loki in the beginning of Infinity War?
 
-  a) Thor
+  A) Thor
 
-  b) The Hulk
+  B) The Hulk
 
-  c) Tony Stark
+  C) Tony Stark
 
-  d) Thanos
+  D) Thanos
 
-  print a, b, c, or d
-
-
-  """)
-  if answer == "d":
-    print("You got it correct! ")
+  Print A, B, C, or D: """)
+  if answer == "D":
+    print("""
+    You got it correct! """)
     return 100
   else: 
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def infinity_war500():
@@ -105,23 +101,22 @@ def infinity_war500():
 
 Who attacked Thanos allowing him to break free of the Avengers and go to earth to retrieve the final stone?
 
-  a) Quill
+  A) Quill
 
-  b) Peter Parker
+  B) Peter Parker
 
-  c) Nebula
+  C) Nebula
 
-  d) Drax
+  D) Drax
   
-  print a, b, c, or d
-
-
-  """)
-  if answer == "a":
-    print("You got it correct! ")
+  Print A, B, C, or D: """)
+  if answer == "A":
+    print("""
+    You got it correct! """)
     return 500
   else:
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def infinity_war1000():
@@ -129,23 +124,22 @@ def infinity_war1000():
 
 What planet were Tony and Nebula stranded on after Thanos snapped his fingers?
 
-  a) Earth
+  A) Earth
 
-  b) Nidavellir
+  B) Nidavellir
 
-  c) Titan
+  C) Titan
 
-  d) Knowhere
+  D) Knowhere
 
-  print a, b, c, or d
-
-
-  """)
-  if answer == "c":
-    print("You got it correct! ")
+  Print A, B, C, or D: """)
+  if answer == "C":
+    print("""
+    You got it correct! """)
     return 500
   else:
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def endgame_100():
@@ -153,22 +147,22 @@ def endgame_100():
 
 Who rescued Tony and Nebula from the space ship in the beginning of Endgame?
 
-  a) Captain America
+  A) Captain America
 
-  b) Thanos
+  B) Thanos
 
-  c) Dr. Strange
+  C) Dr. Strange
 
-  d) Captain Marvel
+  D) Captain Marvel
 
-  print a, b, c, or d:
-
-  """)
-  if answer == "d":
-    print("You got it right! ")
+  Print A, B, C, or D: """)
+  if answer == "D":
+    print("""
+    You got it right! """)
     return 100
   else:
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def endgame_500():
@@ -176,23 +170,22 @@ def endgame_500():
   
 When the Avengers went back in time, where did Rocket take the Time Stone from?
 
-  a) Tony's Briefcase
+  A) Tony's Briefcase
 
-  b) Loki's Room
+  B) Loki's Room
 
-  c) Thor's Mom
+  C) Thor's Mom
 
-  d) Jane's pocket
+  D) Jane's pocket
   
-  print a, b, c, or d
-
-
-  """)
-  if answer == "d":
-    print("You got it right! ")
+  Print A, B, C, or D: """)
+  if answer == "D":
+    print("""
+    You got it right! """)
     return 500
   else:
-    print("You got it wrong :( ")
+    print("""
+    You got it wrong :( """)
     return 0
 
 def endgame_1000():
@@ -200,27 +193,20 @@ def endgame_1000():
 
 After Tony's death and funeral, who was appointed the new ruler of Asgard?
 
-  a) Valkyrie
+  A) Valkyrie
 
-  b) Rocket
+  B) Rocket
 
-  c) Thor
+  C) Thor
 
-  d) Stephen Strange
+  D) Stephen Strange
   
-  print a, b, c, or d
-
-
-  """)
-  if answer == "a":
-    print("You got it right! ")
+  Print A, B, C, or D: """)
+  if answer == "A":
+    print("""
+    You got it right! """)
     return 1000
-  else:
-    print("You got it wrong :( ")
-    return 0 
-
-def play_music():
-    playsound('The-Avengers-Theme-Song.mp3')
-    song = input("Pleasee click the SPACEBAR to continue")
-    if song == " ":
-      return
+  else: 
+    print("""
+    You got it wrong :( """)
+    return 0
