@@ -9,10 +9,12 @@ from question_functions import endgame_100
 from question_functions import endgame_500
 from question_functions import endgame_1000 
 from jeopardy_board import jeopardy_boards
+from playsound import playsound
+from question_functions import play_music
 
 points = 0
 
-game_board()
+game_board() 
 
 jeopardy_boards()
 
@@ -67,6 +69,9 @@ def question_select():
       You finished with ${points}
       
       """)
+      playsound('The-Avengers-Theme-Song.mp3')
       exit()
+
+
 while True:
   question_select()

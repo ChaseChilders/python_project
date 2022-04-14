@@ -1,4 +1,4 @@
-
+from playsound import playsound
 # # def question_select():
 #   movie_select = input("What is the movie category you would like to answer questions from? ")
 #   amount_select = input("What amount of money would you like to try and win? ")
@@ -161,8 +161,7 @@ Who rescued Tony and Nebula from the space ship in the beginning of Endgame?
 
   d) Captain Marvel
 
-  print a, b, c, or d
-  
+  print a, b, c, or d:
 
   """)
   if answer == "d":
@@ -219,3 +218,9 @@ After Tony's death and funeral, who was appointed the new ruler of Asgard?
   else:
     print("You got it wrong :( ")
     return 0 
+
+def play_music():
+    playsound('The-Avengers-Theme-Song.mp3')
+    song = input("Pleasee click the SPACEBAR to continue")
+    if song == " ":
+      return
