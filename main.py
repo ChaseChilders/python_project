@@ -10,7 +10,6 @@ from question_functions import endgame_500
 from question_functions import endgame_1000 
 from jeopardy_board import jeopardy_boards
 from playsound import playsound
-from question_functions import play_music
 
 points = 0
 
