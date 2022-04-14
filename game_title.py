@@ -18,7 +18,7 @@ Tips:
 - Make sure you type exactly what is on the screen e.g(Infinity War, $500, etc.).
 - If at any time you want to leave the game, enter "x" for both responses, and the game will quit and show you how much money you won.
 - Do not answer the same question twice.
-- When you have answered all the questions, enter "x" for both the responses and the game will end and show you your total money.
+- When you have answered all the questions, enter "x" for both questions and the game will end and show you your total money.
 
 
   """)

@@ -27,38 +27,47 @@ def question_select():
     if amount_select == "$100":
       points += avengers_100()
       jeopardy_boards()
+      playsound('Sounds/decoy.mp3')
   if movie_select == "The Avengers":
     if amount_select == "$500":
       points += avengers_500()
       jeopardy_boards()
+      playsound('Sounds/electricity.mp3')
   if movie_select == "The Avengers":
     if amount_select == "$1000":
       points += avengers_1000()
       jeopardy_boards()
+      playsound('Sounds/spangley.mp3')
   if movie_select == "Infinity War":
     if amount_select == "$100":
       points += infinity_war100()
       jeopardy_boards()
+      playsound('Sounds/galaga.mp3')
   if movie_select == "Infinity War":
     if amount_select == "$500":
       points += infinity_war500()
       jeopardy_boards()
+      playsound('Sounds/grows.mp3')
   if movie_select == "Infinity War":
     if amount_select == "$1000":
       points += infinity_war1000()
       jeopardy_boards()
+      playsound('Sounds/hulkroar4.mp3')
   if movie_select == "Endgame":
     if amount_select == "$100":
       points += endgame_100()
       jeopardy_boards()
+      playsound('Sounds/spear.mp3')
   if movie_select == "Endgame":
     if amount_select == "$500":
       points += endgame_500()
       jeopardy_boards()
+      playsound('Sounds/yay.mp3')
   if movie_select == "Endgame":
     if amount_select == "$1000": 
       points += endgame_1000()
       jeopardy_boards()
+      playsound('Sounds/petty.mp3')
   if movie_select == "x":
     if amount_select == "x":
       print(f"""
@@ -68,7 +77,7 @@ def question_select():
       You finished with ${points}
       
       """)
-      playsound('The-Avengers-Theme-Song.mp3')
+      playsound('Sounds/The-Avengers-Theme-Song.mp3')
       exit()
 
 
